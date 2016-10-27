@@ -1,15 +1,14 @@
 h1{
-	font-size:2.5em;
+	font-size:2.0em;
 	font-family: 'Georgia', Times, "Times New Roman", serif;
 	font-weight:800;
 	float:left;
-	padding-left:20px;
-	padding-top:24px;
-	padding-bottom:28px;
+	padding-top:12px;
+	padding-bottom:12px;
 	padding-right:20px;
-	margin-top:-24px;
-	margin-bottom:-15px;
-	background:#415FB2;
+	background:#4aaaa5;
+	color:white;
+	padding-left:10px;
 }
 
 h1:hover{
@@ -21,6 +20,7 @@ h2{
 	font-family: 'Georgia', Times, "Times New Roman", serif;
 	font-weight:800;
 	padding: 20px 20px 0px 10px;
+	color:#4aaaa5;
 }
 
 h3{
@@ -30,9 +30,8 @@ h3{
 }
 
 header{
-	background:#415FB2;
-	color:white;
-	padding:15px 20px 15px 20px;
+	background:white;
+	padding:15px 20px 15px 0px;
 	position:fixed;
 	top:0px;
 	width:100%;
@@ -43,8 +42,8 @@ header{
 body{
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	background: #8e9eab; /* fallback for old browsers */
-	background: -webkit-linear-gradient(to left, #8e9eab , #eef2f3); /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to left, #8e9eab , #eef2f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: -webkit-linear-gradient(to right, #4aaaa5 , #eefff3); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #4aaaa5 , #eefff3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .container{
 	margin: 120px 10%;
@@ -71,20 +70,28 @@ body{
 footer{
 	display:block;
 	width: 100%;
-	background:black;
+	background:#666666;
 	clear:both;
 	text-align: center;
 	padding:10px 0px;
 	color:white;
 	position:fixed;
 	bottom:0px;
+	border-top:3px solid #4aaaa5;
 }
 
 .right{
 	float:right;
 	margin-right:10px;
 	padding-right:20px;
+	padding-top:10px;
 	line-height:2.5;
+}
+
+
+a.menu:hover{
+	color:black;
+	text-decoration: underline;
 }
 
 
@@ -110,17 +117,14 @@ footer{
 }
 
 
-.fa-linkedin-square{
-	color:blue;
-}
-
-.fa-stack-overflow{
-	color:orange;
-}
-
 .menu{
 	text-decoration:none;
-	color:white;
+	color:#777777;
+}
+
+.menu-container{
+	padding:0px 10% 0px 10%;
+	width:80%;
 }
 
 #projects{
@@ -152,7 +156,7 @@ textarea{
 	height:200px;
 }
 button{
-	background:blue;
+	background:#4aaaa5;
 	color:white;
 	border:0px solid gray;
 	width:65px;
@@ -181,7 +185,7 @@ form{
 	position:absolute;
 	bottom:12%;
 	left:5px;
-	background: rgba(65, 95, 178, 0.9);
+	background: #4aaaa5;
 	color:white;
 	padding:6px 5px 6px 2px;
 }
