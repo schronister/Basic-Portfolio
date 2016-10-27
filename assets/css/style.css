@@ -36,6 +36,7 @@ header{
 	top:0px;
 	width:100%;
 	z-index: 5;
+	border-bottom:2px solid #999999;
 }
 
 
@@ -171,8 +172,8 @@ form{
 
 
 .portfolio-image{
-	width:100%;
-	margin:auto;
+	width:99%;
+	margin-right:2px;
 
 }
 
@@ -184,8 +185,9 @@ form{
 .image-text{
 	position:absolute;
 	bottom:12%;
-	left:5px;
 	background: #4aaaa5;
 	color:white;
-	padding:6px 5px 6px 2px;
+	padding:15px 0px 15px 0px;
+	width:99%;
+	text-align:center;
 }
